@@ -1,0 +1,105 @@
+baseURL = "https://example.com/"
+title = "显示光学笔记"
+
+theme = "fuji"
+hasCJKLanguage = true
+enableEmoji = true
+enableRobotsTXT = true
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+
+locale = "zh-CN"
+defaultContentLanguage = "zh-hans"
+summaryLength = 120
+paginate = 10
+
+[caches]
+[caches.images]
+dir = ":cacheDir/images"
+
+[outputFormats]
+[outputFormats.SearchIndex]
+isPlainText = true
+notAlternative = true
+mediaType = "application/json"
+path = "/search/"
+
+[outputs]
+home = ["HTML", "RSS", "SearchIndex"]
+
+[permalinks]
+post = "/post/:contentbasename/"
+
+[params]
+author = "显示光学笔记"
+subTitle = "Display optics, measurement, and near-eye systems."
+defaultTheme = "auto"
+sourceURL = "https://github.com/dsrkafuu/hugo-theme-fuji"
+showWordCounter = true
+showReadTime = true
+hideNoTagList = false
+showLicenseInFooter = false
+showLicense = true
+showToc = true
+copyrightStartYear = "2026"
+description = "显示光学技术博客，记录显示器件、光学测量、AR/VR 光学、色彩科学和实验复现。"
+mainSections = ["post"]
+license = "CC BY-NC-SA 4.0"
+licenseLink = "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+lazyPlaceholder = "/assets/lazyload/dsrca_loading_480x270.svg"
+lazyPlaceholderRow = "/assets/lazyload/dsrca_loading_960x270.svg"
+lazyPlaceholderCol = "/assets/lazyload/dsrca_loading_480x540.svg"
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+[markup.highlight]
+codeFences = false
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 3
+
+[taxonomies]
+tag = "tags"
+
+[menu]
+[[menu.nav]]
+name = "Home"
+url = "/"
+weight = 1
+[[menu.nav]]
+name = "Archives"
+url = "/archives/"
+weight = 2
+[[menu.nav]]
+name = "About"
+url = "/about/"
+weight = 3
+[[menu.nav]]
+name = "Search"
+url = "/search/"
+weight = 4
+[[menu.nav]]
+name = "RSS"
+url = "/index.xml"
+weight = 5
+
+[[menu.link]]
+name = "CIE Resources"
+url = "https://cie.co.at/"
+weight = 1
+[[menu.link]]
+name = "Hugo Fuji"
+url = "https://github.com/dsrkafuu/hugo-theme-fuji"
+weight = 2
+[[menu.link]]
+name = "Display Daily"
+url = "https://displaydaily.com/"
+weight = 3
+
+[build]
+noJSConfigInAssets = true
+
+[security]
+enableInlineShortcodes = true
