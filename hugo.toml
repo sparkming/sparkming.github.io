@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://sparkming.github.io/"
 title = "显示光学笔记"
 
 theme = "fuji"
@@ -33,7 +33,7 @@ post = "/post/:contentbasename/"
 [params]
 author = "显示光学笔记"
 subTitle = "Display optics, measurement, and near-eye systems."
-defaultTheme = "auto"
+defaultTheme = "light"
 sourceURL = "https://github.com/dsrkafuu/hugo-theme-fuji"
 showWordCounter = true
 showReadTime = true
@@ -86,17 +86,21 @@ url = "/index.xml"
 weight = 5
 
 [[menu.link]]
-name = "CIE Resources"
+name = "CIE"
 url = "https://cie.co.at/"
 weight = 1
 [[menu.link]]
-name = "Hugo Fuji"
-url = "https://github.com/dsrkafuu/hugo-theme-fuji"
+name = "SID"
+url = "https://www.sid.org/"
 weight = 2
 [[menu.link]]
 name = "Display Daily"
 url = "https://displaydaily.com/"
 weight = 3
+[[menu.link]]
+name = "Fuji Theme"
+url = "https://github.com/dsrkafuu/hugo-theme-fuji"
+weight = 4
 
 [build]
 noJSConfigInAssets = true
