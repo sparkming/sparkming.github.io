@@ -1,4 +1,4 @@
-# 追光者
+# 追光
 
 Hugo + [Fuji](https://github.com/dsrkafuu/hugo-theme-fuji/) 主题的光学技术博客。
 
