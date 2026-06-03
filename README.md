@@ -1,6 +1,6 @@
-# 显示光学笔记
+# 追光者
 
-Hugo + [Fuji](https://github.com/dsrkafuu/hugo-theme-fuji/) 主题的显示光学技术博客。
+Hugo + [Fuji](https://github.com/dsrkafuu/hugo-theme-fuji/) 主题的光学技术博客。
 
 项目配置使用 Hugo 官方当前推荐的 `hugo.toml` 文件名。
 
